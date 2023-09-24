@@ -1,10 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
 *
 {
+
     padding: 0;
     margin: 0;
 text-align: center;
-
+font-family: monospace;
 }
+
+
+
 body
 {
     width: 100%;
@@ -44,7 +49,11 @@ align-items: center;
 }
 .question
 {
-font-size: 150px;
+font-size: 100px;
 color: #807257;
 
+}
+.none
+{
+display: none;
 }
